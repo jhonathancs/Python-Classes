@@ -1,0 +1,8 @@
+n = int(input('digite um numero para ver sua tabuada: '))
+print('-'*12)
+print('{} x {:1} = {}'.format(n,1,n*1))
+print('{} x {:1} = {}'.format(n,2,n*2))
+print('{} x {:1} = {}'.format(n,3,n*3))
+print('{} x {:1} = {}'.format(n,4,n*4))
+print('{} x {:1} = {}'.format(n,5,n*5))
+print('-'*12)
