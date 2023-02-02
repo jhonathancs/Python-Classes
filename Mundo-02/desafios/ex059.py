@@ -1,4 +1,5 @@
 import time
+# from time import sleep
 start_time = time.time()
 end_time = start_time + 9
 n1 = int(input('primeiro valor: '))
@@ -30,4 +31,5 @@ while option != 5:
             time.sleep(1)
         print('Volte sempre...')
     else:
-        print('essa opcao nao existe')
+        print('Essa opcao nao existe')
+    # sleep(2)
